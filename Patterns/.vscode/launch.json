@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClassSheetPattern17",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern17",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern33",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern33",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern32",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern32",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern31",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern31",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern30",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern30",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern29",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern29",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern28",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern28",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern27",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern27",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern26",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern26",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern25",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern25",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern24",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern24",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern23",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern23",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
             "name": "ClassSheetPattern16",
             "request": "launch",
             "mainClass": "ClassSheetPattern16",
