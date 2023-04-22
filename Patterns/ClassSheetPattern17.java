@@ -4,7 +4,7 @@ public class ClassSheetPattern17 {
         Scanner ip = new Scanner(System.in);
         int n = ip.nextInt();
 
-        Pattern17(n);
+       // Pattern17(n);
     }
 
 }

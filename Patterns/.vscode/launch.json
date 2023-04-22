@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClassSheetPattern19",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern19",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern18",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern18",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
             "name": "ClassSheetPattern17",
             "request": "launch",
             "mainClass": "ClassSheetPattern17",
