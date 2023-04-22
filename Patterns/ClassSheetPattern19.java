@@ -42,10 +42,10 @@ public class ClassSheetPattern19 {
                 System.out.print("* ");
             }
             if (i != a - 1) {
-                for (int j = 2 * k; j > 0; j--) {
-                    System.out.print(" ");
+                for (int j = 2 * (k-1)-1; j > 0; j--) {
+                    System.out.print("   ");
                 }
-                k -= (i+2);
+                k -= 1;
             }
             if (i == a - 1) {
                 for (int j = 0; j <= i; j++) {

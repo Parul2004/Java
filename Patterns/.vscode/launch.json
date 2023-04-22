@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClassSheetPattern22",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern22",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern21",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern21",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern20",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern20",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
             "name": "ClassSheetPattern19",
             "request": "launch",
             "mainClass": "ClassSheetPattern19",
