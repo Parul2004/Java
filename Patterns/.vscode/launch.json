@@ -1,0 +1,126 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ClassSheetPattern16",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern16",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern15",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern15",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern14",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern14",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern13",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern13",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern12",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern12",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern11",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern11",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern10",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern10",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern9",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern9",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern8",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern8",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern7",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern7",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern6",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern6",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern5",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern5",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern4",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern4",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern3",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern3",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern1",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern1",
+            "projectName": "Patterns_f814e57f"
+        },
+        {
+            "type": "java",
+            "name": "ClassSheetPattern2",
+            "request": "launch",
+            "mainClass": "ClassSheetPattern2",
+            "projectName": "Patterns_f814e57f"
+        }
+    ]
+}
