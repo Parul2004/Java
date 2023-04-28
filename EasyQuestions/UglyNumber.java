@@ -11,7 +11,7 @@ public class UglyNumber {
 
 public static int isPrime(int n){
     int f = 1;
-    for(int i = 2;i<n;i++){
+    for(int i = 2;i<=n/2;i++){
         if(n%i == 0) {
             f = 0;
             break;
@@ -26,7 +26,7 @@ public static int isPrime(int n){
         int arr[] = new int[100], l = 0;
         arr[l++] = 2;
         int f = 1;
-        for (int i = 2; i < n; i++) {
+        for (int i = 2; i <= n; i++) {
 
             if (n % i == 0) {
                 f = 0;
@@ -39,17 +39,15 @@ public static int isPrime(int n){
                }
                 
             }
-           
+            if(f == 1){
+                int k = isPrime(i);
+               if(k == 1){
+                arr[l++] = i;
+               }
+              
+            }
 
         }
-        if(f == 1){
-            int k = isPrime(i);
-           if(k == 1){
-            arr[l++] = i;
-           }
-          
-        }
-        
         int flag = 0;
         for (int i = 0; i < l; i++) {
             if (arr[i] == 2 || arr[i] == 3 || arr[i] == 5 ) {
