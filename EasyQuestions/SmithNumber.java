@@ -18,6 +18,7 @@ public class SmithNumber {
                 n /= 10;
             }
             int sum1 = 0;
+            
             while (k != 1) {
                 int p = 0;
                 for (int i = 2; i <= k; i++) {
