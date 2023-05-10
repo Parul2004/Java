@@ -2,6 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Maximums",
+      "request": "launch",
+      "mainClass": "Maximums",
+      "projectName": "EasyQuestions_5099c24f"
+    },
+    {
+      "type": "java",
+      "name": "IsItCatOrNot",
+      "request": "launch",
+      "mainClass": "IsItCatOrNot",
+      "projectName": "EasyQuestions_5099c24f"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
