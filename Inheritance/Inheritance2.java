@@ -8,8 +8,9 @@ class Human1 {
 
     void sleep() {
         age = 18;
+        name = "Parul";
         System.out.println("Human needs good sleep");
-        System.out.println(age);
+        System.out.println(age+" "+name);
     }
 }
 
