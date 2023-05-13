@@ -6,6 +6,6 @@ public class LongestKUniqueCharacterSubstrings {
         Scanner ip = new Scanner(System.in);
         String str = ip.next();
 
-        
+        ;
     }
 }

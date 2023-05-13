@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LengthOfLongestSubstringWithoutRepeatingCharacters",
+      "request": "launch",
+      "mainClass": "LengthOfLongestSubstringWithoutRepeatingCharacters",
+      "projectName": "EasyQuestions_5099c24f"
+    },
+    {
+      "type": "java",
       "name": "StringCompression",
       "request": "launch",
       "mainClass": "StringCompression",

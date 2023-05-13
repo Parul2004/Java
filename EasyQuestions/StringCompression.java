@@ -4,13 +4,13 @@ public class StringCompression {
     public static void main(String args[]) {
       Scanner ip = new Scanner(System.in);
       String s = ip.next();
-      int n = s.length()-1;
+      int n = s.length();
       String ans="";
-      for(int i = 0;i<s.length();i++){
-          char ch = s.charAt(i);
+      for(int i = 1;i<s.length();i++){
+          char ch = s.charAt(i-1);
           int c = 1;
-          if(i!=n){
-           while(ch == s.charAt(i+1) && i<n){
+          if(i!=n+1){
+           while(ch == s.charAt(i-1) && i<=n){
              c++;
              i++;
           }
