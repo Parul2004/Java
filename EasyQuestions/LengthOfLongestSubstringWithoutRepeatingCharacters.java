@@ -12,20 +12,32 @@ public class LengthOfLongestSubstringWithoutRepeatingCharacters {
 
     public static int LongestSubstring(String A) {
         // Complete the function
-        int n = A.length();
-        int maxi = 0;
-        for (int i = 0; i < n; i++) {
-            int c = 0;
-            for (int j = i + 1; j < n; j++) {
-                if (A.charAt(i) != A.charAt(j)) {
-                    c++;
-                    j++;
+        int maxi = -1;
+        for (int l = 0; l < A.length(); l++) {
+
+            for (int j = l + 1; j < A.length() + 1; j++) {
+                boolean f = check(A.substring(l, j));
+                int subStringLen = A.substring(l, j).length();
+                if (f == true) {
+
+                    maxi = Math.max(maxi, subStringLen);
                 }
             }
-            maxi = Math.max(c, maxi);
-
         }
         return maxi;
+    }
+
+    public static boolean check(String str) {
+        for (int i = 0; i < str.length(); i++) {
+            for (int j = i + 1; j < str.length(); j++) {
+                if (str.charAt(i) != str.charAt(j)) {
+                    continue;
+                } else {
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 
 }
