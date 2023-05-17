@@ -10,16 +10,18 @@ public class MinimumWindowSubsTring {
         String str = ip.next();
         String check = ip.next();
         int n = str.length();
-        int maxi = 0;
+        int maxi = str.length();
         String result = "";
         for (int i = 0; i < n; i++) {
           
             for (int j = i + 1; j <= n; j++) {
                 String sub = str.substring(i, j);
+              //  System.out.println("sUBSTRING IS : "+sub);
+
                 String ans = check(sub, check);
-                System.out.println("sUBSTRING IS : "+ans);
+               // System.out.println("Answer sUBSTRING IS : "+ans.length());
                 int count = ans.length();
-                if (ans.length() != 0 && maxi < count) {
+                if (ans.length() >= check.length() && maxi >= count) {
                     maxi = count;
                     result = ans;
                 }
@@ -30,18 +32,25 @@ public class MinimumWindowSubsTring {
     }
 
     public static String check(String str, String ch) {
+        int f = 0;
         for (int i = 0; i < ch.length(); i++) {
-            int f = 0;
+            if(f == 1) f = 0;
             for (int j = 0; j < str.length(); j++) {
-                if (ch.charAt(i) == ch.charAt(j)) {
+                if (ch.charAt(i) == str.charAt(j)) {
                     f = 1;
                     break;
                 }
             }
+         
             if (f == 0) {
+              //  System.out.println("sUBSTRING IS : "+""+" with  value "+f);
+
                 return "";
             }
+
+          
         }
-        return ch;
+        
+        return str;
     }
 }
