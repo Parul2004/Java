@@ -44,9 +44,9 @@ public class PermutationOfString {
             // for (int p = 0; p < 26; p++) {
             //     System.out.print(freq2[p] + " ");
             // }
-            System.out.println();
-            System.out.println();
-            System.out.println();
+            // System.out.println();
+            // System.out.println();
+            // System.out.println();
             for (int v = 0; v < 26; v++) {
                 if (freq1[v] != freq2[v]) {
                     flag = false;
