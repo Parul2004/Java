@@ -36,8 +36,10 @@ public class StringMethods {
         System.out.println(com4);
 
         // compare two string lexicographically
-        int out1 = str2.compareTo(str1);
-        int out2 = str2.compareToIgnoreCase(str1);
+        String s1 = "c";
+        String s2 = "b";
+        int out1 = s1.compareTo(s2);
+        int out2 = s1.compareToIgnoreCase(s2);
         System.out.println(out1);
         System.out.println(out2);
 
