@@ -2,6 +2,7 @@ import java.util.*;
 
 public class ArmsStrongNumberInRange {
     public static void main(String[] args) {
+        
         Scanner ip = new Scanner(System.in);
         int a = ip.nextInt();
         int b = ip.nextInt();
