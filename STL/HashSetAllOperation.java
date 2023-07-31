@@ -1,8 +1,8 @@
-import java.util.ArrayList;
+import java.util.*;
 import java.util.Collections;
 import java.util.HashSet;
 
-import javax.swing.text.html.HTMLDocument.Iterator;
+// import javax.swing.text.html.HTMLDocument.Iterator;
 
 public class HashSetAllOperation {
     public static void main(String[] args) {
@@ -12,6 +12,15 @@ public class HashSetAllOperation {
         set.add(9);
         set.add(54);
         set.add(32);
+
+        Iterator<Integer>itr = set.iterator();
+        System.out.println("Set Having elements : ");
+        
+        while(itr.hasNext()){
+            System.out.print(itr.next()+" ");
+        }
+
+        System.out.println();
 
         // printing set
         System.out.println(set);

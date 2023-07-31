@@ -9,6 +9,10 @@ public class HashMapAllOperations {
         mpp.put("Muskan Aggarwal",901);
         mpp.put("Muskan Gupta",902);
 
+        for(HashMap.Entry<String,Integer> entry:mpp.entrySet()){
+            System.out.println(entry.getKey()+" "+entry.getValue());
+        }
+
         System.out.println("Printing HashMap Elements : ");
         System.out.println(mpp);
 
