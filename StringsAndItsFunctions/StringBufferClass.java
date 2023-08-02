@@ -1,7 +1,9 @@
 public class StringBufferClass {
     public static void main(String[] args) {
         StringBuffer str = new StringBuffer("");
+        
         // we have to convert StringBuffer and StringBuider to String before printing
+        
         System.out.println(str);
         System.out.println(str.length());
         System.out.println(str.capacity());
